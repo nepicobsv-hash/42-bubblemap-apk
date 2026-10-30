@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#050914",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "package": "one.bubblemap.fortytwo"
+    },
+    "icon": "./assets/icon.png",
+    "ios": {
+      "bundleIdentifier": "one.bubblemap.fortytwo",
+      "supportsTablet": false
+    },
+    "name": "42 バブルマップ",
+    "orientation": "portrait",
+    "owner": "guppy9180s-team",
+    "scheme": "bubblemap42",
+    "slug": "42-bubblemap",
+    "splash": {
+      "backgroundColor": "#050914",
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain"
+    },
+    "userInterfaceStyle": "dark",
+    "version": "0.1.0",
+    "extra": {
+      "eas": {
+        "projectId": "5ef68bea-1664-41e4-a070-ded4c72d3b76"
+      }
+    }
+  }
+}
