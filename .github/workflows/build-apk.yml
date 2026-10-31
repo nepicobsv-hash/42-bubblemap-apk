@@ -26,6 +26,10 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          # 'tools' package no longer exists in the SDK repo (sdkmanager exits 1);
+          # platform-tools is all this step needs — real packages are installed next.
+          packages: platform-tools
 
       - name: Install SDK packages
         run: |
